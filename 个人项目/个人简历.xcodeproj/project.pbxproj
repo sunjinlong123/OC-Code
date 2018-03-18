@@ -16,6 +16,7 @@
 		C512C6891FDA3FC400274266 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C512C6881FDA3FC400274266 /* main.m */; };
 		C512C6931FDA3FC400274266 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C512C6921FDA3FC400274266 /* ____Tests.m */; };
 		C512C69E1FDA3FC400274266 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C512C69D1FDA3FC400274266 /* ____UITests.m */; };
+		C523DF721FDD5E51005B42B2 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C523DF711FDD5E51005B42B2 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		93EEBF4C050C65167105E8F9 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_____.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93EEBF4C050C65167105E8F9 /* Pods_____.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_____.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A69F21E25FB6CDDC864041D8 /* Pods-个人简历.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-个人简历.release.xcconfig"; path = "Pods/Target Support Files/Pods-个人简历/Pods-个人简历.release.xcconfig"; sourceTree = "<group>"; };
 		C512C6761FDA3FC400274266 /* 个人简历.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "个人简历.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C512C6791FDA3FC400274266 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -46,14 +47,14 @@
 		C512C6801FDA3FC400274266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C512C6821FDA3FC400274266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C512C6851FDA3FC400274266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		C512C6871FDA3FC400274266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C512C6881FDA3FC400274266 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C512C68E1FDA3FC400274266 /* 个人简历Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人简历Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C512C6921FDA3FC400274266 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____Tests.m; sourceTree = "<group>"; };
+		C512C6921FDA3FC400274266 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
 		C512C6941FDA3FC400274266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C512C6991FDA3FC400274266 /* 个人简历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人简历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C512C69D1FDA3FC400274266 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ____UITests.m; sourceTree = "<group>"; };
+		C512C69D1FDA3FC400274266 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
 		C512C69F1FDA3FC400274266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C523DF711FDD5E51005B42B2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../.Trash/Info.plist; sourceTree = "<group>"; };
 		EE91DEAB14EEB6B7D2F542E8 /* Pods-个人简历.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-个人简历.debug.xcconfig"; path = "Pods/Target Support Files/Pods-个人简历/Pods-个人简历.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				C512C6781FDA3FC400274266 /* 个人简历 */,
-				C512C6911FDA3FC400274266 /* 个人简历Tests */,
-				C512C69C1FDA3FC400274266 /* 个人简历UITests */,
+				C512C6911FDA3FC400274266 /* GCD梳理Tests */,
+				C512C69C1FDA3FC400274266 /* GCD梳理UITests */,
 				C512C6771FDA3FC400274266 /* Products */,
 				35E6CDDF8544ADA2926D1EB3 /* Pods */,
 				C6EFFE98F5E919F5FD62B65A /* Frameworks */,
@@ -123,29 +124,29 @@
 				C512C67D1FDA3FC400274266 /* ViewController.m */,
 				C512C67F1FDA3FC400274266 /* Main.storyboard */,
 				C512C6821FDA3FC400274266 /* Assets.xcassets */,
+				C523DF711FDD5E51005B42B2 /* Info.plist */,
 				C512C6841FDA3FC400274266 /* LaunchScreen.storyboard */,
-				C512C6871FDA3FC400274266 /* Info.plist */,
 				C512C6881FDA3FC400274266 /* main.m */,
 			);
 			path = "个人简历";
 			sourceTree = "<group>";
 		};
-		C512C6911FDA3FC400274266 /* 个人简历Tests */ = {
+		C512C6911FDA3FC400274266 /* GCD梳理Tests */ = {
 			isa = PBXGroup;
 			children = (
 				C512C6921FDA3FC400274266 /* ____Tests.m */,
 				C512C6941FDA3FC400274266 /* Info.plist */,
 			);
-			path = "个人简历Tests";
+			path = "GCD梳理Tests";
 			sourceTree = "<group>";
 		};
-		C512C69C1FDA3FC400274266 /* 个人简历UITests */ = {
+		C512C69C1FDA3FC400274266 /* GCD梳理UITests */ = {
 			isa = PBXGroup;
 			children = (
 				C512C69D1FDA3FC400274266 /* ____UITests.m */,
 				C512C69F1FDA3FC400274266 /* Info.plist */,
 			);
-			path = "个人简历UITests";
+			path = "GCD梳理UITests";
 			sourceTree = "<group>";
 		};
 		C6EFFE98F5E919F5FD62B65A /* Frameworks */ = {
@@ -267,6 +268,7 @@
 			files = (
 				C512C6861FDA3FC400274266 /* LaunchScreen.storyboard in Resources */,
 				C512C6831FDA3FC400274266 /* Assets.xcassets in Resources */,
+				C523DF721FDD5E51005B42B2 /* Info.plist in Resources */,
 				C512C6811FDA3FC400274266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -529,11 +531,15 @@
 			baseConfigurationReference = EE91DEAB14EEB6B7D2F542E8 /* Pods-个人简历.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "个人简历/Info.plist";
+				DEVELOPMENT_TEAM = 7V3R2P2498;
+				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sunjinlong.----";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xuanr.EKaoLa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -543,11 +549,15 @@
 			baseConfigurationReference = A69F21E25FB6CDDC864041D8 /* Pods-个人简历.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "个人简历/Info.plist";
+				DEVELOPMENT_TEAM = 7V3R2P2498;
+				INFOPLIST_FILE = "$(SRCROOT)/../../.Trash/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "sunjinlong.----";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.xuanr.EKaoLa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
